@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html page="home" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri:regular,500,600,700&_v=20230417121438" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230417121438">
+    <link rel="stylesheet" href="css/home/home.min.css?_v=20230417121438">
+    <link rel="icon" type="image/png" href="images/site-logo-icon.png">
+    <title>Акватерапия</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="main">
+    <menu class="menu">
+        <div class="menu__inner container">
+                <a href="index.html">
+                    <svg class="logo">
+                        <use xlink:href="images/svg/site-logo.svg#logo"></use>
+                    </svg>
+                </a>
+            <nav class="menu__inner__nav">
+                <a data-goto="#main" class="menu__inner__nav__item text">Главная</a>
+                <a data-goto="#services" class="menu__inner__nav__item text">Сеансы</a>
+                <a data-goto="#reviews" class="menu__inner__nav__item text">Отзывы</a>
+                <a data-goto="#contacts" class="menu__inner__nav__item text">Контакты</a>
+                <a href="news.html" class="menu__inner__nav__item text">Новости</a>
+                <a data-goto="#about" class="menu__inner__nav__item text">Обо мне</a>
+                <a href="blog.html" class="menu__inner__nav__item text">Блог</a>
+            </nav>
+            <button class="new-menu-button">
+                <span class="new-menu-button__line"></span>
+                <span class="new-menu-button__line"></span>
+                <span class="new-menu-button__line"></span>
+            </button>
+            <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+        </div>
+    </menu>
+
+    <div class="first-screen container">
+        <div class="first-screen__inner">
+            <div data-scroll-anim class="first-screen__inner__text-block">
+                <div class="title-block__inner scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <h1 class="subtitle">Укрепление здровья</h1>
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                </div>
+                <h1 class="first-screen__inner__text-block__title scrollAnim scrollAnimLeft scrollAnimDelay">Акватория RitmStyle</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<aside class="main-shadow">
+    <menu class="new-menu">
+        <div class="new-menu__header">
+            <button class="new-menu-button open">
+                <span class="new-menu-button__line"></span>
+                <span class="new-menu-button__line"></span>
+                <span class="new-menu-button__line"></span>
+            </button>
+            <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+        </div>
+
+        <ul class="new-menu__navbar">
+            <li class="new-menu__navbar__item pulse" data-goto="#main">
+                Главная
+            </li>
+            <li class="new-menu__navbar__item pulse" data-goto="#services">
+                Сеансы
+            </li>
+            <li class="new-menu__navbar__item pulse" data-goto="#reviews">
+                Отзывы
+            </li>
+            <li class="new-menu__navbar__item pulse" data-goto="#contacts">
+                Контакты
+            </li>
+            <a href="news.html" class="new-menu__navbar__item pulse">
+                 Новости 
+            </a>
+            <li class="new-menu__navbar__item pulse" data-goto="#about">
+                Обо мне
+            </li>
+            <a href="blog.html" class="new-menu__navbar__item pulse">
+                Блог
+            </a>
+        </ul>
+    </menu>
+</aside>
+        <section id="services" class="container services">
+   <div class="title-block">
+            <div data-scroll-anim class="title-block__inner scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <h1 class="title">Сеансы RitmStyle</h1>
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+            </div>
+   </div>
+
+   <div data-scroll-anim class="services__options scrollAnimLadder">
+        <div class="services__options__item pulse scrollAnim scrollAnimLeft">
+            <p class="subtitle">Стандартный RitmStyle</p>
+        </div>
+        <div class="services__options__item pulse scrollAnim scrollAnimLeft">
+            <p class="subtitle">RitmStyle для пар</p>
+        </div>
+        <div class="services__options__item pulse scrollAnim scrollAnimLeft">
+            <p class="subtitle">RitmStyle для беременных</p>
+        </div>
+        <div class="services__options__item pulse scrollAnim scrollAnimLeft">
+            <p class="subtitle">RitmStyle с полным погружением под воду</p>
+        </div>
+        <div class="services__options__item pulse scrollAnim scrollAnimLeft">
+            <p class="subtitle">RitmStyle + красочная подводная фотосессия</p>
+        </div>
+   </div>
+</section>
+        <section id="reviews" class="reviews">
+    <div class="title-block container">
+        <div data-scroll-anim class="title-block__inner scrollAnim scrollAnimLeft">
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+            <h1 class="title">Отзывы</h1>
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+        </div>
+   </div>
+
+   <div class="swiper-container slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide__inner">
+                        <h1 class="subtitle-proxima">Александра Дмитриева</h1>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur nulla viverra egestas tellus.
+                            Cursus scelerisque phasellus netus proin. Etiam mauris maecenas facilisis faucibus mauris eleifend purus. Purus
+                            dictum vulputate elementum mauris amet.
+                        </p>
+                        <p class="text">
+                            Hendrerit sit cras ullamcorper morbi quam vitae ante nibh. Ornare ipsum mi nisl augue placerat lacus.
+                            Dolor ipsum fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus lacus quisque diam. Semper sed aenean in
+                            etiam mus praesent diam semper in. Pretium id a amet, massa ligula nibh faucibus ornare. Ut aenean rhoncus sed nam
+                            ut diam dapibus. Risus nibh faucibus eu vestibulum tempor, quis ultrices mauris. Porta enim, donec odio sagittis,
+                            eget velit at.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__inner">
+                        <h1 class="subtitle-proxima">Кира Иванова</h1>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
+                            orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit
+                            imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.
+                        </p>
+                        <p class="text">
+                            Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
+                            orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit,
+                            convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus
+                            mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__inner">
+                        <h1 class="subtitle-proxima">Яна Жернова</h1>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia eget mattis orci aliquam enim tincidunt
+                            gravida aliquet ut. Ipsum vulputate morbi felis, lobortis tincidunt. Pretium dictum odio feugiat auctor diam sit
+                            viverra gravida. Lobortis arcu rhoncus, mi mi vitae feugiat amet, vitae ac. Cursus diam turpis iaculis nisi sit. Vel
+                            blandit et sit elit vestibulum feugiat proin tempor, justo. Diam commodo, pellentesque at porttitor tristique
+                            faucibus faucibus morbi. Bibendum pretium lacus, tempus viverra vitae odio nunc eget.
+                        </p>
+                        <p class="text">
+                            Tortor fermentum orci neque sed. Mauris faucibus diam lorem erat ullamcorper donec egestas neque.
+                            Maecenas malesuada mauris magnis sed id. Luctus vitae justo, in consectetur arcu. Nulla feugiat at eu in aliquet.
+                            Diam nunc, libero mauris tellus suspendisse morbi sagittis semper.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__inner">
+                        <h1 class="subtitle-proxima">Иван Нишицев</h1>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur nulla viverra egestas tellus.
+                            Cursus scelerisque phasellus netus proin. Etiam mauris maecenas facilisis faucibus mauris eleifend purus. Purus
+                            dictum vulputate elementum mauris amet.
+                        </p>
+                        <p class="text">
+                            Hendrerit sit cras ullamcorper morbi quam vitae ante nibh. Ornare ipsum mi nisl augue placerat lacus.
+                            Dolor ipsum fermentum viverra bibendum faucibus urna. Arcu, ut sed tellus lacus quisque diam. Semper sed aenean in
+                            etiam mus praesent diam semper in. Pretium id a amet, massa ligula nibh faucibus ornare. Ut aenean rhoncus sed nam
+                            ut diam dapibus. Risus nibh faucibus eu vestibulum tempor, quis ultrices mauris. Porta enim, donec odio sagittis,
+                            eget velit at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="swiper-pagination">
+
+        </div>
+   </div>
+</section>
+        <div class="container">
+            <section id="about" class="about-RitmStyle">
+    <div class="title-block container">
+        <div data-scroll-anim class="title-block__inner scrollAnim scrollAnimLeft">
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+            <h1 class="title">Об RitmStyle</h1>
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+        </div>
+   </div>
+
+    <div class="about-grid">
+        <div class="about-grid__item">
+            <div data-scroll-anim class="about-grid__item__inner scrollAnim scrollAnimLeft">
+                <h1 class="subtitle">RitmStyle массаж</h1>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh
+                    quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum suscipit amet.
+                    Eleifend amet habitasse proin quis adipiscing.
+                    Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non augue massa.
+                    Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.
+                </p>
+            </div>
+        </div>
+        <div class="about-grid__item">
+            <picture><source srcset="images/main2.webp" type="image/webp"><img src="images/main2.jpg" alt=""></picture>
+        </div>
+        <div class="about-grid__item">
+            <picture><source srcset="images/main2.webp" type="image/webp"><img src="images/main2.jpg" alt=""></picture>
+        </div>
+        <div class="about-grid__item">
+            <div data-scroll-anim class="about-grid__item__inner scrollAnim scrollAnimRight">
+                <h1 class="subtitle">RitmStyle гидротерапия</h1>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget.
+                    Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar penatibus
+                    luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies sem nunc risus
+                    senectus luctus ultricies. Enim feugiat pharetra pharetra et.
+                </p>
+                <p class="text">
+                    Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed tempor
+                    elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit blandit in augue
+                    vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id aliquam. Magna sed tristique
+                    tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero tellus diam egestas dui tellus odio.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="price">
+    <div class="title-block container">
+        <div data-scroll-anim class="title-block__inner scrollAnim scrollAnimLeft">
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+            <h1 class="title">Стоимость сеансов</h1>
+            <svg class="rectangle">
+                <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+            </svg>
+        </div>
+   </div>
+
+    <div class="price__box">
+        <div class="price__box__item">
+            <ul data-scroll-anim class="price__box__item__description scrollAnimLadder">
+                <li class="scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <p class="text">RitmStyle с погружением</p>
+                    <p class="text">1000р.</p>
+                </li>
+                <li class="scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <p class="text">Абонемент на RitmStyle</p>
+                    <p class="text">5500р.</p>
+                </li>
+                <li class="scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <p class="text">RitmStyle для пар</p>
+                    <p class="text">6000р.</p>
+                </li>
+                <li class="scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <p class="text">RitmStyle для беременных</p>
+                    <p class="text">13500р.</p>
+                </li>
+                <li class="scrollAnim scrollAnimLeft">
+                    <svg class="rectangle">
+                        <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                    </svg>
+                    <p class="text">RitmStyle + фотосессия</p>
+                    <p class="text">11500р.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="price__box__item">
+            <picture><source srcset="images/main3.webp" type="image/webp"><img src="images/main3.png" alt=""></picture>
+            <p class="subtitle">Подарочный сертификат</p>
+        </div>
+    </div>
+</section>
+        </div>
+        <section id="contacts" class="contacts container">
+    <div data-scroll-anim class="contacts__grid">
+        <div class="contacts__grid__map scrollAnim scrollAnimLeft">
+            <picture><source srcset="images/maps.webp" type="image/webp"><img src="images/maps.png" alt=""></picture>
+        </div>
+        <div class="contacts__grid__location scrollAnim scrollAnimRight">
+            <h1 class="subtitle">Бассейн WorkClass</h1>
+            <ul class="contacts__grid__location__adress">
+                <li class="text">
+                    <span class="icon-location"></span>
+                    <p>Невский 140</p>
+                </li>
+                <li class="text">
+                    <span class="icon-Spb_metro_logo"></span>
+                    <p>м. Спасская</p>
+                </li>
+                <li class="text">
+                    <span class="icon-bi_calendar"></span>
+                    <p>Запись по договорённости</p>
+                </li>
+            </ul>
+            <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+        </div>
+        <div class="contacts__grid__location scrollAnim scrollAnimRight">
+            <h1 class="subtitle">Бассейн "На Гороховой"</h1>
+            <ul class="contacts__grid__location__adress">
+                <li class="text">
+                    <span class="icon-location"></span>
+                    <p>3-й проезд Иванова</p>
+                </li>
+                <li class="text">
+                    <span class="icon-Spb_metro_logo"></span>
+                    <p>м. Крестовский остров</p>
+                </li>
+                <li class="text">
+                    <span class="icon-bi_calendar"></span>
+                    <p>Запись по договорённости</p>
+                </li>
+            </ul>
+            <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+        </div>
+    </div>
+</section>
+        <footer class="container">
+    <div class="footer__inner">
+        <address class="text">© 2018-2022 RitmStyle</address>
+        <address class="text">Сделано d-e-n.info</address>
+    </div>
+</footer>
+        <div class="hystmodal" id="myModal" aria-hidden="true">
+            <div class="hystmodal__wrap">
+                <div class="hystmodal__window" role="dialog" aria-modal="true">
+                    <form action="deploy.php" role="debloy" method="post">
+                        <input class="subtitle form-item" type="text" placeholder="Login" name="Login">
+                            <p class="standartVal-message"><span>Разрешены:цифры,латинские буквы.</span><span>Количество символов должно быть от 5 до 10.</span></p>
+
+                        <input class="subtitle form-item" type="email" placeholder="Email" name="email">
+                            <p class="emailVal-message">Неверная почта</p>
+
+                        <input class="subtitle form-item" type="password" placeholder="Password" name="password">
+                            <p class="standartVal-message"><span>Разрешены:цифры,латинские буквы.</span><span>Количество символов должно быть от 5 до 10.</span></p>
+
+                        <div class="password-checkbox"><input id="checkb" type="checkbox"><label for="checkb">показать пароль</label></div>
+                        <button class="wave-button">
+                            <span class="wave-button__text">Отправить заявку</span>
+                            <span class="wave-button__waves"></span>
+                        </button>
+                    </form>
+                    <button data-hystclose class="hystmodal__close"></button>            
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/swiper-bundle.min.js?_v=20230417121438"></script>
+    <script src="js/hystmodal.min.js?_v=20230417121438"></script>
+    <script src="js/app.min.js?_v=20230417121438"></script>
+</body>
+</html>

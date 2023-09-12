@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html page="blog" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri:regular,500,600,700&_v=20230417121438" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230417121438">
+    <link rel="stylesheet" href="css/blog/blog.min.css?_v=20230417121438">
+    <link rel="icon" type="image/png" href="images/site-logo-icon.png">
+    <title>Блог</title>
+</head>
+<body>
+    <header>
+        <menu class="menu">
+            <div class="menu__inner container">
+                    <a href="index.html">
+                        <svg class="logo">
+                            <use xlink:href="images/svg/site-logo.svg#logo"></use>
+                        </svg>
+                    </a>
+                <nav class="menu__inner__nav">
+                    <a href="index.html?scrollTo=main" class="menu__inner__nav__item text">Главная</a>
+                    <a href="index.html?scrollTo=services" class="menu__inner__nav__item text">Сеансы</a>
+                    <a href="index.html?scrollTo=reviews" class="menu__inner__nav__item text">Отзывы</a>
+                    <a href="index.html?scrollTo=contacts" class="menu__inner__nav__item text">Контакты</a>
+                    <a href="news.html" class="menu__inner__nav__item text">Новости</a>
+                    <a href="index.html?scrollTo=about" class="menu__inner__nav__item text">Обо мне</a>
+                    <a href="blog.html" class="menu__inner__nav__item text">Блог</a>
+                </nav>
+                <button class="new-menu-button">
+                    <span class="new-menu-button__line"></span>
+                    <span class="new-menu-button__line"></span>
+                    <span class="new-menu-button__line"></span>
+                </button>
+                <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+            </div>
+        </menu>
+    </header>
+
+    <aside class="main-shadow">
+        <menu class="new-menu">
+            <div class="new-menu__header">
+                <button class="new-menu-button open">
+                    <span class="new-menu-button__line"></span>
+                    <span class="new-menu-button__line"></span>
+                    <span class="new-menu-button__line"></span>
+                </button>
+                <button data-hystmodal="#myModal" class="button pulse">Записаться на сеанс</button>
+            </div>
+    
+            <nav class="new-menu__navbar">
+                <a href="index.html?scrollTo=main" class="new-menu__navbar__item pulse">
+                    Главная
+                </a>
+                <a href="index.html?scrollTo=services" class="new-menu__navbar__item pulse">
+                    Сеансы
+                </a>
+                <a href="index.html?scrollTo=reviews" class="new-menu__navbar__item pulse">
+                    Отзывы
+                </a>
+                <a href="index.html?scrollTo=contacts" class="new-menu__navbar__item pulse">
+                    Контакты
+                </a>
+                <a href="news.html" class="new-menu__navbar__item pulse">
+                     Новости 
+                </a>
+                <a href="index.html?scrollTo=about" class="new-menu__navbar__item pulse">
+                    Обо мне
+                </a>
+                <a href="blog.html" class="new-menu__navbar__item pulse">
+                    Блог
+                </a>
+            </nav>
+        </menu>
+    </aside>
+
+    <section class="container section">
+        <div class="title-block">
+                 <div data-scroll-anim class="title-block__inner scrollAnim scrollAnimLeft">
+                         <svg class="rectangle">
+                             <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                         </svg>
+                         <h1 class="title">Блог</h1>
+                         <svg class="rectangle">
+                             <use xlink:href="images/svg/Rectangle.svg#rectangle"></use>
+                         </svg>
+                 </div>
+        </div>
+
+        <article class="post">
+            <div class="post__image">
+                <picture><source srcset="images/blog-image-copy.webp" type="image/webp"><img src="images/blog-image-copy.png" alt=""></picture>
+            </div>
+
+            <div class="post__block">
+                <div class="post__block__inner">
+                    <time class="text">13.02.2022</time>
+                    <h1 class="subtitle">Новый формат сеансов<time class="text">13.02.2022</time></h1>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget massa vitae tempus at pretium lacus
+                        viverra. Vitae libero vivamus quis enim quam vitae dictumst nulla duis. Sed nisl nibh et morbi tristique suspendisse
+                        morbi. Consequat facilisi tortor consectetur magnis odio. Risus, aenean tortor cras consectetur lacus, ut erat ac
+                        et. Fermentum aliquam ac egestas eget risus a. Maecenas sed pellentesque bibendum vitae at praesent sed. Amet
+                        pretium arcu gravida arcu ut dui sem quis id. Tristique in leo donec proin odio eget. Neque ut in egestas lacus sit
+                        nunc, nec. Proin mattis augue sit leo sagittis nam id accumsan. Pulvinar nunc fermentum vulputate ultrices pulvinar
+                        sed ultrices quis.
+                    </p>
+                    <button class="button pulse">
+                        Читать статью
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="post">
+            <div class="post__image">
+                <picture><source srcset="images/blog-image-copy.webp" type="image/webp"><img src="images/blog-image-copy.png" alt=""></picture>
+            </div>
+
+            <div class="post__block">
+                <div class="post__block__inner">
+                    <time class="text">13.02.2022</time>
+                    <h1 class="subtitle">Новый формат сеансов<time class="text">13.02.2022</time></h1>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget massa vitae tempus at pretium lacus
+                        viverra. Vitae libero vivamus quis enim quam vitae dictumst nulla duis. Sed nisl nibh et morbi tristique suspendisse
+                        morbi. Consequat facilisi tortor consectetur magnis odio. Risus, aenean tortor cras consectetur lacus, ut erat ac
+                        et. Fermentum aliquam ac egestas eget risus a. Maecenas sed pellentesque bibendum vitae at praesent sed. Amet
+                        pretium arcu gravida arcu ut dui sem quis id. Tristique in leo donec proin odio eget. Neque ut in egestas lacus sit
+                        nunc, nec. Proin mattis augue sit leo sagittis nam id accumsan. Pulvinar nunc fermentum vulputate ultrices pulvinar
+                        sed ultrices quis.
+                    </p>
+                    <button class="button pulse">
+                        Читать статью
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer class="container">
+        <div class="footer__inner">
+            <address class="text">© 2018-2022 RitmStyle</address>
+            <address class="text">Сделано d-e-n.info</address>
+        </div>
+    </footer>
+
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <form action="deploy.php" role="debloy" method="post">
+                    <input class="subtitle form-item" type="text" placeholder="Login" name="Login">
+                        <p class="standartVal-message"><span>Разрешены:цифры,латинские буквы.</span><span>Количество символов должно быть от 5 до 10.</span></p>
+
+                    <input class="subtitle form-item" type="email" placeholder="Email" name="email">
+                        <p class="emailVal-message">Неверная почта</p>
+
+                    <input class="subtitle form-item" type="password" placeholder="Password" name="password">
+                        <p class="standartVal-message"><span>Разрешены:цифры,латинские буквы.</span><span>Количество символов должно быть от 5 до 10.</span></p>
+
+                    <div class="password-checkbox"><input id="checkb" type="checkbox"><label for="checkb">показать пароль</label></div>
+                    <button class="wave-button">
+                        <span class="wave-button__text">Отправить заявку</span>
+                        <span class="wave-button__waves"></span>
+                    </button>
+                </form>
+                <button data-hystclose class="hystmodal__close"></button>                
+            </div>
+        </div>
+    </div>
+    <script src="js/hystmodal.min.js?_v=20230417121438"></script>
+    <script src="js/app.min.js?_v=20230417121438"></script>
+</body>
+</html>
